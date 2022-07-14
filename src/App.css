@@ -1,0 +1,81 @@
+body {
+  justify-content: center;
+}
+
+h1 {
+  text-shadow: 3px 4px lightgreen;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 1em solid #eee;
+  padding: 2em;
+}
+
+.line {
+  display: flex;
+  gap: 5px;
+}
+
+.tile {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  box-shadow: 3px 4px rgb(166, 144, 238);
+}
+
+.correct {
+  background-color: greenyellow;
+  text-shadow: 2px 3px white;
+  font-weight: bold;
+}
+
+.green {
+  color: greenyellow;
+  border: 1px solid greenyellow;
+  padding: 5px;
+}
+
+.close {
+  background-color: yellow;
+  text-shadow: 2px 3px white;
+  font-weight: bold;
+}
+
+.yellow {
+  color: yellow;
+  border: 1px solid yellow;
+  padding: 5px;
+}
+
+.incorrect {
+  background-color: lightgray;
+  text-shadow: 2px 3px white;
+  font-weight: bold;
+}
+
+.gray {
+  color: lightgray;
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+
+.rules {
+  margin-top: 5px;
+  padding: 1em;
+  width: 220px;
+  border: 1em solid pink;
+  color: white;
+  background: black;
+}
+
+.center {
+  text-align: center;
+}
